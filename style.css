@@ -517,6 +517,108 @@ nav button{
     text-decoration-line: underline;
 }
 
+/* I need Support */
+
+.support {
+    position: relative;
+    border-radius: 16px;
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 48px;
+    box-sizing: border-box;
+}
+
+.support::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 16px; 
+    pointer-events: none;
+    z-index: 1;
+}
+
+.support-head{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    z-index: 2;
+    margin-bottom: 16px;
+
+}
+
+.supportp{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    z-index: 2;
+    margin-bottom: 24px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.feedback-form{
+    box-sizing: border-box;
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    z-index: 2;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.submit-button{
+    z-index: 2;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
 
 
 
